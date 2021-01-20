@@ -1,0 +1,229 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass/css3";
+
+*
+{
+	@include box-sizing(border-box);
+	
+}
+a 
+{ 
+	text-decoration: none;
+	cursor: pointer; 
+	display: block;
+}
+button
+{
+	margin: 0px;
+	border: none;
+	padding: 0px;
+	outline: none;
+	cursor: pointer;
+	background: none;
+
+}
+
+.float
+	{
+		float: left;
+	}
+.float_r
+	{
+		float: right;
+	}
+.spacer 
+	{
+		clear: both;
+	}
+.hidden
+	{
+		visibility: hidden;
+	}
+.hidden_a
+	{
+		display: none;
+	}
+.link_red
+	{
+		color: #ff0000;
+	}
+
+
+
+
+/*左側圖片列表*/
+.left
+	{
+		position: absolute;
+		left: 53px;
+		top: 36px;
+		width: 296px;
+		height: 966px;
+		z-index: -100;
+		background-color: #f2efef;
+		@include box-shadow(rgba(32,21,18,0.7) 0px 2px 10px);
+		margin-bottom: 50px;
+		.left_box
+			{
+				padding-top: 10px;
+				height: 940px;
+				overflow-y: auto;
+
+			}
+
+		.flog
+			{
+				width: 100px;
+				color: #5b5959;
+				font-size: 12px;
+				text-align: center;
+				margin-left: 94px;
+				margin-bottom: 2px;
+				.flog_pic
+					{
+						margin-left: 5%;
+					}
+				
+			}
+		.incloud
+			{
+				height: 889px;
+			}
+
+
+		.line
+			{
+				width: 3px;
+				height: 889px;
+				padding-top: 8px;
+				background-image: url(../../../images/history_14_1.png);
+				background-repeat: repeat-y;
+				position: absolute;
+				z-index: -10;
+				left: 47%;
+
+
+			}
+		
+
+		/*圖片列表 start*/
+		.land_box
+			{
+				width: 50%;
+				text-align: center;
+				font-size: 11px;
+				color: #000000;
+				padding-bottom: 10px;
+				.box
+					{
+						padding-top: 3px;
+						margin-left: 3px;
+						margin-right: 4px;
+
+					}
+				.add
+					{
+						text-align: left;
+						width: 100%;
+						height: 15px;
+						padding-bottom: 2px;
+						padding-left: 5px;
+						font-size: 13px;
+						visibility: hidden;
+						a{color: #1200ff;}
+
+					}
+				.box:hover
+					{
+						background-color: #ffffff;
+						@include border-radius(5px, 5px);
+						@include box-shadow(rgba(32,21,18,0.7) 0px 2px 10px);
+					}
+				.add:hover
+					{
+						visibility: visible;
+					}
+				
+			}
+		
+		.l_tr	
+			{
+				margin-bottom: 10px;
+			}
+		/*圖片列表 END*/
+		
+
+
+
+
+
+
+	
+		a.list_link:hover
+			{
+				background-color: #ffffff;
+			}
+		a.list_link:active
+			{
+				background-color: #f2efef;
+				
+			}
+		
+
+		/*時間*/
+		.list
+			{
+				margin-top: 2px;
+				width: 100%;
+				height: 38px;
+				padding-top: 1px;
+				text-align: center;
+				font-size: 11px;
+				color: #5b5959;
+				.cir
+					{
+						width: 16px;
+						height: 16px;
+						background-color: #5b5959;
+						margin-left: 47%;
+						margin-bottom: 4px;
+						margin-top: 4px;
+						@include border-radius(10px, 10px);
+					}
+				/*點擊時需要更換顏色*/
+				.cir_a
+					{
+						background-color: #ff0000;
+					}
+				
+			}
+		
+
+
+		/*收合按鈕*/
+		.button
+			{
+				background-color: #d4d4d4;
+				width: 100%;
+				text-align: center;
+				font-size: 23px;
+				margin-top: 2px;
+				.m_l
+					{
+						margin-left: 52px;
+					}
+				.m_l_a
+					{
+						margin-left: 34px;
+						letter-spacing: 30px;
+					}
+			}
+
+
+
+	}

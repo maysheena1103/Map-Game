@@ -1,0 +1,275 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Applications/Fire.app/Contents/Resources/lib/ruby/compass_1.0/compass-core-1.0.0/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/history.scss */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 14, ../sass/history.scss */
+a {
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+}
+
+/* line 20, ../sass/history.scss */
+button {
+  margin: 0px;
+  border: none;
+  padding: 0px;
+  outline: none;
+  cursor: pointer;
+  background: none;
+}
+
+/* line 31, ../sass/history.scss */
+.float {
+  float: left;
+}
+
+/* line 35, ../sass/history.scss */
+.float_r {
+  float: right;
+}
+
+/* line 39, ../sass/history.scss */
+.spacer {
+  clear: both;
+}
+
+/* line 43, ../sass/history.scss */
+.hidden {
+  visibility: hidden;
+}
+
+/* line 47, ../sass/history.scss */
+.hidden_a {
+  display: none;
+}
+
+/* line 51, ../sass/history.scss */
+.link_red {
+  color: #ff0000;
+}
+
+/*左側圖片列表*/
+/* line 60, ../sass/history.scss */
+.left {
+  position: absolute;
+  left: 53px;
+  top: 36px;
+  width: 296px;
+  height: 966px;
+  z-index: -100;
+  background-color: #f2efef;
+  -moz-box-shadow: rgba(32, 21, 18, 0.7) 0px 2px 10px;
+  -webkit-box-shadow: rgba(32, 21, 18, 0.7) 0px 2px 10px;
+  box-shadow: rgba(32, 21, 18, 0.7) 0px 2px 10px;
+  margin-bottom: 50px;
+  /*圖片列表 start*/
+  /*圖片列表 END*/
+  /*時間*/
+  /*收合按鈕*/
+}
+/* line 71, ../sass/history.scss */
+.left .left_box {
+  padding-top: 10px;
+  height: 940px;
+  overflow-y: auto;
+}
+/* line 79, ../sass/history.scss */
+.left .flog {
+  width: 100px;
+  color: #5b5959;
+  font-size: 12px;
+  text-align: center;
+  margin-left: 94px;
+  margin-bottom: 2px;
+}
+/* line 87, ../sass/history.scss */
+.left .flog .flog_pic {
+  margin-left: 5%;
+}
+/* line 93, ../sass/history.scss */
+.left .incloud {
+  height: 889px;
+}
+/* line 99, ../sass/history.scss */
+.left .line {
+  width: 3px;
+  height: 889px;
+  padding-top: 8px;
+  background-image: url(../../../images/history_14_1.png);
+  background-repeat: repeat-y;
+  position: absolute;
+  z-index: -10;
+  left: 47%;
+}
+/* line 115, ../sass/history.scss */
+.left .land_box {
+  width: 50%;
+  text-align: center;
+  font-size: 11px;
+  color: #000000;
+  padding-bottom: 10px;
+}
+/* line 122, ../sass/history.scss */
+.left .land_box .box {
+  padding-top: 3px;
+  margin-left: 3px;
+  margin-right: 4px;
+}
+/* line 129, ../sass/history.scss */
+.left .land_box .add {
+  text-align: left;
+  width: 100%;
+  height: 15px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  font-size: 13px;
+  visibility: hidden;
+}
+/* line 138, ../sass/history.scss */
+.left .land_box .add a {
+  color: #1200ff;
+}
+/* line 141, ../sass/history.scss */
+.left .land_box .box:hover {
+  background-color: #ffffff;
+  -moz-border-radius: 5px / 5px;
+  -webkit-border-radius: 5px 5px;
+  border-radius: 5px / 5px;
+  -moz-box-shadow: rgba(32, 21, 18, 0.7) 0px 2px 10px;
+  -webkit-box-shadow: rgba(32, 21, 18, 0.7) 0px 2px 10px;
+  box-shadow: rgba(32, 21, 18, 0.7) 0px 2px 10px;
+}
+/* line 147, ../sass/history.scss */
+.left .land_box .add:hover {
+  visibility: visible;
+}
+/* line 154, ../sass/history.scss */
+.left .l_tr {
+  margin-bottom: 10px;
+}
+/* line 167, ../sass/history.scss */
+.left a.list_link:hover {
+  background-color: #ffffff;
+}
+/* line 171, ../sass/history.scss */
+.left a.list_link:active {
+  background-color: #f2efef;
+}
+/* line 179, ../sass/history.scss */
+.left .list {
+  margin-top: 2px;
+  width: 100%;
+  height: 38px;
+  padding-top: 1px;
+  text-align: center;
+  font-size: 11px;
+  color: #5b5959;
+  /*點擊時需要更換顏色*/
+}
+/* line 188, ../sass/history.scss */
+.left .list .cir {
+  width: 16px;
+  height: 16px;
+  background-color: #5b5959;
+  margin-left: 47%;
+  margin-bottom: 4px;
+  margin-top: 4px;
+  -moz-border-radius: 10px / 10px;
+  -webkit-border-radius: 10px 10px;
+  border-radius: 10px / 10px;
+}
+/* line 199, ../sass/history.scss */
+.left .list .cir_a {
+  background-color: #ff0000;
+}
+/* line 209, ../sass/history.scss */
+.left .button {
+  background-color: #d4d4d4;
+  width: 100%;
+  text-align: center;
+  font-size: 23px;
+  margin-top: 2px;
+}
+/* line 216, ../sass/history.scss */
+.left .button .m_l {
+  margin-left: 52px;
+}
+/* line 220, ../sass/history.scss */
+.left .button .m_l_a {
+  margin-left: 34px;
+  letter-spacing: 30px;
+}
